@@ -2,7 +2,7 @@ import os
 from google import generativeai as genai
 from dotenv import load_dotenv
 
-GEMINI_MODEL = 'gemini-1.5-flash'
+GEMINI_MODEL = 'gemini-2.0-flash'
 
 TWEET_SAMPLES = [
     {"topic": "the future of renewable energy", "tone": "optimistic", "max_words": 30},
